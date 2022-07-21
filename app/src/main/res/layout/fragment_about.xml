@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="The primary focus of an Ambulance Service team is two-fold:"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="The first is to reach people in emergency situations as quickly as possible and administer life-saving first-aid on the spot."
+        android:textColor="#000"
+        android:layout_below="@+id/tv1"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="The second is to transport the sick or injured patient as quickly as possible to the appropriate healthcare facility for further care."
+        android:textColor="#000"
+        android:layout_below="@+id/tv2"
+        android:textSize="30dp" />
+
+</RelativeLayout>

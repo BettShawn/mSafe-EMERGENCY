@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity"
+    android:clickable="true"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="SELECT CATEGORY ->"
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgcategory"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvcategory"
+        android:layout_alignLeft="@+id/tvcategory"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rbaccident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCIDENT"
+            android:buttonTint="#000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbpregwoman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="PREGNANT  WOMAN"
+            android:buttonTint="#000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rboldpeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="OLD AGE PEOPLE"
+            android:buttonTint="#000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tvcondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rgcategory"
+        android:layout_alignLeft="@+id/rgcategory"
+        android:text="SELECT CONDITION ->"
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgcondition"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvcondition"
+        android:layout_alignLeft="@+id/tvcondition"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/rbverycritical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VERY CRITICAL"
+            android:buttonTint="#000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbcritical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CRITICAL"
+            android:buttonTint="#000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rblesscritical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="LESS CRITICAL"
+            android:buttonTint="#000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgcondition"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="NEXT"
+        android:textColor="#fff"
+        android:background="@drawable/roundedbtn"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:color="#FFFFFF"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:icon="@drawable/ic_home_black"
+        android:title="HOME"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_people_outline"
+        android:title="ABOUT"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_portrait_black"
+        android:title="PROFILE"/>
+
+</menu>
